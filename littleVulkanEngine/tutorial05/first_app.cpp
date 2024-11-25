@@ -38,7 +38,7 @@ void FirstApp::createPipelineLayout() {
 
 void FirstApp::createPipeline() {
   PipelineConfigInfo pipelineConfig{};
-  LvePipeline::defaultPipelineConfigInfo(
+  defaultPipelineConfigInfo(
       pipelineConfig,
       lveSwapChain.width(),
       lveSwapChain.height());
